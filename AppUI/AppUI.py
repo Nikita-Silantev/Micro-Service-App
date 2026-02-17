@@ -55,7 +55,8 @@ class CalculatorWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Micro Calc ")
-        
+        self.setFixedSize(900, 400)
+       
         # Поля ввода
         self.num1 = QLineEdit()
         self.num2 = QLineEdit()
